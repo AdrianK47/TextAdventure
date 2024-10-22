@@ -146,10 +146,11 @@ public class TextAdventure
       System.out.println("Ferenc the flower is enraged by your decision and he initiates a fight with you.");
       int floweyHealth = 100;
       while (floweyHealth != 0){
+        int damage = (int)((Math.random()*10) + 1);
         System.out.println("What do you want to do? \nAttack: Strike the enemy. \nDefend: Block this turn's attack from the enemy \nRun Away: Leave the battle in the worst way possible..\n" + ourHero.getName() + ": ");
         input = inScanner.nextLine();
         if (input.equals("Attack") || input.equals("attack")){
-          floweyHealth -= 10;
+          floweyHealth -= damage;
         }
         else if(input.equals("Defend") || input.equals("defend")){
           System.out.println("You defend against incoming attacks for this turn.");
@@ -157,12 +158,13 @@ public class TextAdventure
         else{
           //Game over sign
         }
-        int damage = (int)((Math.random()*10) + 1);
+        damage = (int)((Math.random()*10) + 1);
         ourHero.setHealth(ourHero.getHealth() - damage);
         System.out.println("Ferenc the flower's health is at " + floweyHealth);
         System.out.println("Ferenc the flower dealt " + damage + ". Your Current Health is now " + ourHero.getHealth() + ".");
       }
       console.setImage("normalflower.png");
+      ourHero.setHealth(100);
       System.out.println("After dealing the last blow, Ferenc the flower reverted back into a normal yellow flower.");
       System.out.println("You successfully defeated Ferenc the flower!");
       // Game ending 2 where you stay with the chill dude.
@@ -197,10 +199,11 @@ public class TextAdventure
     // ADD CODE HERE
     int lucaHealth = 100;
     while (lucaHealth != 0){
+      int damage = (int)((Math.random()*10) + 1);
       System.out.println("What do you want to do? \nAttack: Strike the enemy. \nDefend: Block this turn's attack from the enemy \nRun Away: Leave the battle in the worst way possible..\n" + ourHero.getName() + ": ");
         input = inScanner.nextLine();
         if (input.equals("Attack") || input.equals("attack")){
-          lucaHealth -= 10;
+          lucaHealth -= damage;
         }
         else if(input.equals("Defend") || input.equals("defend")){
           System.out.println("You defend against incoming attacks for this turn.");
@@ -208,11 +211,12 @@ public class TextAdventure
         else{
           //Game over sign
         }
-        int damage = (int)((Math.random()*10) + 1);
+        damage = (int)((Math.random()*10) + 1);
         ourHero.setHealth(ourHero.getHealth() - damage);
         System.out.println("The GREAT Luca's health is at " + lucaHealth);
         System.out.println("The GREAT Luca dealt " + damage + ". Your Current Health is now " + ourHero.getHealth() + ".");
     }
+    ourHero.setHealth(100);
     System.out.println("Blast!!! I cannot believe that me, THE GREAT LUCA, lost to a human. \n Welp, well played young human!!!!");
     System.out.println("You defeated the GREAT and MIGHTY Luca!!!");
     enterZone4();
