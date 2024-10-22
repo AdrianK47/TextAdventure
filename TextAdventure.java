@@ -145,7 +145,7 @@ public class TextAdventure
       console.setImage("floweyevil.png");
       System.out.println("Ferenc the flower is enraged by your decision and he initiates a fight with you.");
       int floweyHealth = 100;
-      while (floweyHealth != 0){
+      while (floweyHealth != 0 || floweyHealth > 0){
         int damage = (int)((Math.random()*10) + 1);
         System.out.println("What do you want to do? \nAttack: Strike the enemy. \nDefend: Block this turn's attack from the enemy \nRun Away: Leave the battle in the worst way possible..\n" + ourHero.getName() + ": ");
         input = inScanner.nextLine();
@@ -198,7 +198,7 @@ public class TextAdventure
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
     int lucaHealth = 100;
-    while (lucaHealth != 0){
+    while (lucaHealth != 0 || lucaHealth > 0){
       int damage = (int)((Math.random()*10) + 1);
       System.out.println("What do you want to do? \nAttack: Strike the enemy. \nDefend: Block this turn's attack from the enemy \nRun Away: Leave the battle in the worst way possible..\n" + ourHero.getName() + ": ");
         input = inScanner.nextLine();
