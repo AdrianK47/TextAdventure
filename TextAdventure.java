@@ -232,7 +232,7 @@ public class TextAdventure
     // ADD CODE HERE
     console.setImage("hallway2.png");
     Thread.sleep(3 * 1000);
-    console.setImage("blackscree.png");
+    console.setImage("blackscreen.png");
     System.out.println("You continue down the hallway into a dark and narrow bridge with the moon glaring into your eyes");
     // describe the area/situation to the user. 
     // Give them options for choices.
