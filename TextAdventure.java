@@ -324,12 +324,12 @@ public class TextAdventure
           gameOver();
         }
         ourHero.setHealth(ourHero.getHealth() - damage);
-        System.out.println("???'s health is at " + gortHealth);
-        System.out.println("??? dealt " + damage + ". Your Current Health is now " + ourHero.getHealth() + ".");
+        System.out.println("King Gort's health is at " + gortHealth);
+        System.out.println("King Gort dealt " + damage + ". Your Current Health is now " + ourHero.getHealth() + ".");
     }
     System.out.println("You.... defeated me.");
     Thread.sleep(3000);
-    System.out.println("You defeated Gort, the King of Monster???");
+    System.out.println("You defeated Gort, the King of Monsters???");
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
     gameEnd3();
