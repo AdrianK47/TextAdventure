@@ -135,7 +135,7 @@ public class TextAdventure
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
     Thread.sleep(3 * 1000);
-    System.out.println("The flower asks you a favor: Defeat the foes ahead and they will help you escape.\n But the chill dude tells you to not trust the flower\n" + "What would you like to do? \n" + "Accept: accept the flower's quest \n" + "Refuse: y̷̳̜̩̬̟̠͔̣̣̍͒Ŏ̷͇͊̿̈́u̷̢̡̢̙͎͇̫̳̗̳̠̻̰̬̒̌͒̑̂̒̈́ ̶̡̦̼͕̜̭̠̠̿̌̿͜M̶̬̩̟̭͙̿͆̋̅̚͜ĭ̷͕̺̩̾Ģ̷̢͈͓̟̭̖̳̖͐̒̾͒̑̇̊̀͛̃̑̋̈́̓̊̕͘ḧ̷̡͖̱̘̭͓͔̩̰́̀̃̈̂̎̿̎̇̃̚̚̚͝͝͠ͅT̷̢̨̡̡̳͉̱̐͊͌̀͋̾̅̆̑͌̿́͋͗̚ͅ ̷̨̡̧̧̧̮̲̫̺̟͇̦̺̙̩͌͒̔͌n̵̖̈́̊O̶̢̜̝̝̭̠͍̼̫̻̫̩̪͗͆̿̆̀̀͌̓̆̍̍̾͘̕͘͝͝t̴̤̹̬̽̿͂̃͌̅̔̕͜͠ ̸͓̤͓͍͔͍̭̞̭̞̬̎̂̒̈́̊̐̌͘͜M̵̡̛̛̦̰̪̻̖̮̩͖͚̝̞̭̮̬̟̏͆͑́́̒̀͊̈́̈͛̀̏̾̕a̷̧̨̧̨͚̰̳̥͈̼̞͖̻͓̯̘͆͋͒̌͗̃͋̀̑̽̀̈́̕͠K̷͇͓̦̬̊e̵͔̤̰͒̅̈̀͒̋̂̽̈́̅͝ ̵̯̻̙̌̍̽͒̄́̾̈́͌I̶̢̡̡̡̨̲̙̯͎̣̪͉̱̙̬͉̟͊́̓̽͐̇̐̽͋͐̍̽̐͘͝t̴̡̠̬͚̋̈́̋̋͋̄͌͝ ̷̭̣̭͚͆̒̉̍͆̿͒͊̾̉̃̃́̇Ö̵̧̞̯̖̜̰̘̖̘̕͜͜u̷̢̧̙̪̰̺̼̹̼͛͗̀̉̉͐̀ͅT̸̩̯̃͋̆̅̇̀͜ ̷̠̰̟̇͂̈͋̚ơ̶̟̞̘͚͛̑̊̊̑̍̌̓͂̅̑F̵̨͔͇͙͔͈͈͚̤̻͍̝̿ ̸̧̛̼̯͙̲̝̝̬̱̳̭̟̜̠̹̈́̍̂̂͗͐͛͜͜t̵̛̜̝̟͉͚̦̳͚̦͔̯̀̓̈́͂͛͐̽̈̂́͆̾́͐͊͜H̷̩͌͛̐͐̑͂̃̓͘͝ĕ̴̺̫̱̞̀͑̇̑͑͒̽̒͝͝ ̶̢̛̮̩͙̘̥̜̺̆̍̀͌̃̀͒̐̆͠͝ͅR̶̡̙̯͔͓̔̆̅͑̿͘͘̚o̷̮͓̙̭̱͔͖̠͍̜͎͙̹̤͇̐́́̄͑̋̔̍͘͘Ơ̴̢̋͆̐͆̽̈̋̅̃̍͐̅̈́͑̓͝m̸̡̰͎̱̤̫̜̝̣͎̝͑́̍̈́̀ ̸̡̡̰̹͈͔̗̹̗͉͚͔̘͕̊̅̒͗̽͂͗̇̕A̵͈̬͇͌͌͊́̆̔͑͒́́́͝͝l̷̢̧͖̺̯͉̦̙̻̓̽ͅI̸̪̗͚̟̠̖̮̺̣̭̤̖̣̱͗́̎̿̎̽̉̀̔͐͘͝ͅv̷̜̖͎͈͋̎̆̐͋̇̽Ẻ̸̻̜̓́̇̆̀̒̑̔̾͌͂͒̏.̷̬̩͙̲̆͊̈́̋͊̕\n" + ourHero.getName() + ": ");
+    System.out.println("The flower asks you a favor: Defeat the foes ahead and they will help you escape.\n But the chill dude tells you to not trust the flower\n" + "What would you like to do? \n" + "Accept: accept the flower's quest \n" + "Refuse: yOu MiGhT nOt MaKe It OuT aLiVe...\n" + ourHero.getName() + ": ");
     input = inScanner.nextLine();
 
     if (input.equals("Accept") || input.equals("accept")){
